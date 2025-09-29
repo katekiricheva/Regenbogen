@@ -1,0 +1,18 @@
+<svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+    <g transform="translate(-3.83, -9.7) scale(1.73)">
+        <path d="
+          M12.8 13.33
+          A4.8 4.8 0 0 0 3.2 13.33
+          V13.33
+          H6.13
+          V13.33
+          A0.27 0.27 0 0 1 9.87 13.33
+          V13.33
+          H12.8
+          L12.8 13.33
+          Z"
+              fill="none"
+              stroke="#6C707E"
+              stroke-width="0.8"/>
+    </g>
+</svg>

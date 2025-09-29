@@ -1,0 +1,24 @@
+<idea-plugin>
+    <id>de.regenbogen.regenbogen</id>
+
+    <name>Regenbogen</name>
+
+    <version>0.9 Beta</version>
+
+    <vendor email="eakiricheva@gmail.com">Kate Kiricheva</vendor>
+
+    <description><![CDATA[
+        Regenbogen clarifies the debugging process by visualizing debugger events as a program execution sequence that can be exported and shared.
+    ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow
+                id="Regenbogen"
+                anchor="right"
+                factoryClass="de.regenbogen.ToolWindowFactory"
+                icon="/icons/toolWindowIcon.svg"/>
+        <postStartupActivity implementation="de.regenbogen.PostStartupActivity"/>
+    </extensions>
+</idea-plugin>
